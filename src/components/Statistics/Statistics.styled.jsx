@@ -46,4 +46,6 @@ font-size: 10px;
 margin-bottom: 10px;
 `;
 
-export const Percentage = styled.span``;
+export const Percentage = styled.span`
+font-size: 14px;
+`;
