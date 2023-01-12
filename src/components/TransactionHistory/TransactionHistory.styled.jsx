@@ -3,6 +3,7 @@ import styled from '@emotion/styled';
 export const TableCard = styled.table`
 width: 400px;
 border-collapse: collapse;
+margin-bottom: 20px;
 `;
 
 export const TableHead = styled.thead``;
@@ -11,7 +12,7 @@ export const TableBody = styled.tbody``;
 
 export const TableRow = styled.tr`
 background-color: #e0ebeb;
-:nth-child(2n-1) {
+&:nth-of-type(2n-1) {
     background-color: white;
 }
 text-align: center;
