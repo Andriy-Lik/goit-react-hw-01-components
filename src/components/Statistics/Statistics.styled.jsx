@@ -13,11 +13,13 @@ box-shadow: 0 1px 4px rgba(0, 0, 0, 1),
 `;
 
 export const StatTitle = styled.h2`
+font-size: 15px;
+font-weight: 500;
+color: grey;
 text-align: center;
+text-transform: uppercase;
 padding-top: 15px;
 padding-bottom: 15px;
-
-// margin-bottom: 10px;
 `;
 
 export const StatList = styled.ul`
@@ -26,18 +28,21 @@ justify-content: space-evenly;
 align-items: center;
 width: 100%;
 height: 100%;
+border-radius: 3px;
 `;
 
 export const StatItem = styled.li`
 display: flex;
 flex-direction: column;
+width: 44px;
+color: white;
 align-items: center;
 background-color: ${p => p.backgroundColor};
 padding: 5px;
-border: 1px solid black;
 `;
 
 export const Label = styled.span`
+font-size: 10px;
 margin-bottom: 10px;
 `;
 

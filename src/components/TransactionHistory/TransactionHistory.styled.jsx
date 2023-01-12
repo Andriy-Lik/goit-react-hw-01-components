@@ -25,7 +25,7 @@ color: white;
 font-size: 10px;
 text-transform: uppercase;
 font-weight: 500;
-border: 1px solid #808080;
+border: 1px solid #E7E5E5;
 `;
 
 export const TableInfo = styled.td`
@@ -33,5 +33,5 @@ padding: 7px;
 color: grey;
 text-transform: capitalize;
 font-size: 10px;
-border: 1px solid #808080;
+border: 1px solid #E7E5E5;
 `;

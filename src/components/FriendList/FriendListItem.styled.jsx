@@ -9,6 +9,7 @@ padding: 10px;
 margin-bottom: 10px;
 border: 2px solid #808080;
 border-radius: 3px;
+box-shadow: 3px 5px 3px #D6CECD;
 
 &:last-child {
     margin-bottom: 0;
